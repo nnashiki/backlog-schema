@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "backlog-schema"
-version = "0.1.0"
+version = "0.1.1"
 description = "backlog.com の pydantic model"
 authors = ["Niten Nashiki <n.nashiki.work@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/nnashiki/backlog-schema"
+repository = "https://github.com/nnashiki/backlog-schema"
 
 [tool.poetry.dependencies]
 python = "^3.8"

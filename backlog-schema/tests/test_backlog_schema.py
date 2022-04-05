@@ -1,7 +1,7 @@
 from backlog_schema import __version__, AddTaskRequest, Project, CreatedUser, Content
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == '0.1.1'
 
 def test_parse_add_task_request_raw():
     add_task_request_raw = """
