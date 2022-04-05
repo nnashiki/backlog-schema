@@ -3,7 +3,7 @@ from backlog_schema import __version__, AddTaskRequest, Project, CreatedUser, Co
 def test_version():
     assert __version__ == '0.1.0'
 
-def test_parse_raw_json():
+def test_parse_add_task_request_raw():
     add_task_request_raw = """
 {
   "id": 0,
